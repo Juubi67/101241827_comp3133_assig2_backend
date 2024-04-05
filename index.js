@@ -9,6 +9,8 @@ dotenv.config();
 
 const app = express();
 
+app.get("/", (req, res) => res.send("Home Page Route"));
+
 const startServer = async () => {
   const server = new ApolloServer({
     typeDefs: `

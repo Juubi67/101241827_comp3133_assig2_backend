@@ -2,10 +2,11 @@
   "name": "101241827_comp3133_assignment1",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
     "apollo-server-express": "^3.13.0",
